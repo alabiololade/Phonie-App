@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  /* font-family: "poppins" sans-serif; */
+}
+body{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: #d6d8df;
+}
+.container{
+  width: 450px;
+  height: 250px;
+  background: #edeff7;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7), -2px 
+  -2px 3px rgba(255,255, 255, 0.2);
+}
+.container h2{
+  font-size: 28px;
+  margin: 30px 0px;
+  text-align: center;
+  color: #000000;
+}
+.logo{
+  display: none;
+}
+ .input{
+  width: 400px;
+  height: 50px;
+  outline: none;
+  border: 2px solid #162466;
+  font-size: 20px;
+  padding: 0px 20px;
+  background: transparent;
+  margin: 0px 25px;
+  color: #000000;
+  position: relative;
+  border-radius: 5px;
+}
+.input .mtn_logo{
+  position: absolute;
+  margin-left: 10px;
+   
+}
+.number{
+  width: 310px;
+  height: 43px;
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200px;
+}
+.number::placeholder{
+  color: #757eb1;
+}
+
+.container h5{
+  height: 20px;
+  width: 200px;
+  margin: 0px 25px;
+  color: #000000;
+}
+.container .check{
+  width: 400px;
+  height: 40px;
+  border: none;
+  font-weight: 600;
+  outline: none;
+  background: #d2d9ff;
+  margin: 20px 25px;
+  padding: 0px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+}
+.check:hover{
+  background: #233cb8;
+  color: #fff;
+}
+img{
+  width: 40px;
+  height: 40px;
+}
