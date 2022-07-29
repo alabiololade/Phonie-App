@@ -1,34 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" 
-    content="IE=edge">
-    <meta name="viewport" content="width=device- 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device- 
     width, initial-scale=1.0">
-    <title>Phonie Challenge</title>
+  <title>Phonie Challenge</title>
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <div class="container">
-    <h2>PHONIE PROJECT</h2>
-    <div class="input">
-      <input type="text" class="number" name="phone 
-      number" placeholder="Your number">
-      <img src="./image/MTN logo.png" class="mtn_logo"      alt="mtn logo">
-      <img src="./image/airtel logo.png" class="logo" 
-      alt="airtel logo">
-      <img src="./image/glo logo.png" class="logo" 
-      alt="glo logo">
-      <img src="./image/9mobile logo.png" class="logo"      alt="9mobile logo">
-    </div>
-    <h5>Please enter your phone number</h5>
-    <input type="text" value="check" class="check">
-  </div>
 
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
-    <script src="index.mjs" type="module"></script>
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
+<body>
+  <main>
+    <div class="container">
+      <div class="logo">
+        <h2>PHONIE APP</h2>
+      </div>
+      <div class="inputContainer">
+        <input type="tel"
+          class="number" 
+          min="11" 
+          max="11" 
+          name="phone number" 
+          placeholder="Your number" 
+          id="num"
+          required >
+        <img src="" 
+          class="mtn_logo" 
+          alt="mtn logo" 
+          style="display: none;">
+        <h5 id="msg">Please enter your phone 
+        number</h5>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
+  <script src="index.mjs" type="module"></script>
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
 </body>
+
 </html>

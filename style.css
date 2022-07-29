@@ -1,88 +1,76 @@
-*{
-  margin: 0;
-  padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+
+* {
   box-sizing: border-box;
-  font-family: monospace;
-  /* font-family: "poppins" sans-serif; */
+  padding: 0;
+  margin: 0;
 }
 body{
+  background-color: #f5f5f5;
   display: grid;
+  height:100vh;
   place-items: center;
-  height: 100vh;
-  background: #d6d8df;
+  font-family: "Sora", sans-serif;
+  overflow-x: hidden;
 }
-.container{
+.container {
   width: 450px;
-  height: 250px;
-  background: #edeff7;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7), -2px 
-  -2px 3px rgba(255,255, 255, 0.2);
-}
-.container h2{
-  font-size: 28px;
-  margin: 30px 0px;
+  height: 50vh;
+  padding: 20px 5px;
+  box-shadow: 0 0 30px #e5bfe8;
+  border-radius: 10px;
+  }
+.logo {
+  margin: 20px;
+  color: #d033f0;
   text-align: center;
-  color: #000000;
+  font-size: 28px;
 }
-.logo{
-  display: none;
+.img{
+  width: 40px;
+  height: 40px;
 }
- .input{
-  width: 400px;
-  height: 50px;
-  outline: none;
-  border: 2px solid #162466;
-  font-size: 20px;
-  padding: 0px 20px;
-  background: transparent;
-  margin: 0px 25px;
-  color: #000000;
-  position: relative;
-  border-radius: 5px;
+.inputContainer{
+    width: 400px;
+    height: 50px;
+    outline: none;
+    border: 2px solid #7d0d64;
+    font-size: 20px;
+    padding: 0px 20px;
+    background: transparent;
+    margin: 0px 25px;
+    color: #000000;
+    position: relative;
+    border-radius: 5px;
 }
-.input .mtn_logo{
-  position: absolute;
-  margin-left: 10px;
+.inputContainer .mtn_logo{
+    position: absolute;
+    margin-left: 10px;
    
 }
 .number{
-  width: 310px;
-  height: 43px;
-  outline: none;
-  border: none;
-  background: transparent;
-  font-size: 20px;
-  font-weight: 200px;
+    width: 310px;
+    height: 43px;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200px;
+  color: black;
 }
 .number::placeholder{
-  color: #757eb1;
-}
+  color: #5b154c; 
+} 
 
-.container h5{
-  height: 20px;
-  width: 200px;
-  margin: 0px 25px;
-  color: #000000;
-}
-.container .check{
-  width: 400px;
-  height: 40px;
-  border: none;
-  font-weight: 600;
-  outline: none;
-  background: #d2d9ff;
-  margin: 20px 25px;
-  padding: 0px 20px;
+.inputContainer h5{
+  margin: 50px auto;
   font-size: 20px;
-  cursor: pointer;
-  text-align: center;
-  border-radius: 5px;
-}
-.check:hover{
-  background: #233cb8;
-  color: #fff;
+  font-weight: 100;
+  color: #4b013b; 
 }
 img{
   width: 40px;
   height: 40px;
 }
+
+
