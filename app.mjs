@@ -50,16 +50,10 @@ function check(imgPath) {
       // MTN Check
       check("./image/MTN logo.png")
   } else if (value.match(/^(0705|080(5|7)|081(1|5)|0905)/)) {
-      // GLO Check
-      // '0705', '0805', '0807', '0811', '0815', '0905'
       check("./image/glo logo.png")
   } else if (value.match(/^(090(1|2|7)|080(2|8)|070(1|8)|0812)/)) {
-      // Airtel Check
-      // '0701', '0708', '0802', '0808', '0812', '0902', '0907', '0901'
       check("./image/airtel logo.png")
   } else if (value.match(/^(0809|081(7|8)|090(8|9))/)) {
-      // Etisalat Check
-      // '0809', '0817', '0818', '0908', '0909'
       check("./image/9mobile logo.png")
       
   }
