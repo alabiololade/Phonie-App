@@ -42,7 +42,7 @@ function check(imgPath) {
       img.src = ''
       img.style.display = 'none';
       text.style.color = 'red'
-      text.textContent = 'Phone number length exceeded!'
+      text.textContent = 'Phone number length exceeded!!!'
     } else {
     text.style.color = 'inherit'
     text.textContent = 'Please enter your phone number'
@@ -69,7 +69,7 @@ function check(imgPath) {
     img.style.display = 'none';
     if(value.length > 7) {
     text.style.color = 'red'
-    text.textContent = 'Phone number invalid' 
+    text.textContent = 'Phone number invalid!!!' 
     }
   }
     }
